@@ -1,9 +1,6 @@
 # c4ads_nda_nonsensitive
 Snapshots of my contributions to my internship with the Center For Advanced Defense Studies , such that NDA sensitive content is stripped away.
 
-# C4ADS_nda_nonviolating
-Snapshots of my contributions to my internship with the Center For Advanced Defense Studies , such that NDA sensitive content is stripped away.
-
 # SanctionsExplorer - Data Science Contributions
 
 |<h3>Labs 24</h3>| |
