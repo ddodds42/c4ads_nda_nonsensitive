@@ -194,9 +194,11 @@ The most common alias may not yeild a search result. It's rare, but in that case
 ![find in SanctionEx](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_1.JPG)
 
 ### 4.2) Corroborate that the entity card is the same person as the entity-in-question on the SAMS.
-ELABORATE HERE
+After you open the entity card, just briefly scan the data points and compare them to the datapoints for the same entity in the SAMS. If it seems like the entity card is the same entity as the one in the SAMS, move on to 4.3, Comparison count. If the entity card does not seem like the same entity as in the SAMS, go back to step 4.1 and keep searching.
 
-### 4.3) Reconcile datapoints between the search result and the SAMS. Count total correct vs. total datapoints.
+![eyeball the match](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_2.JPG)
+
+### 4.3) Compare datapoints between the search result and the SAMS. Count total correct vs. total datapoints.
 ELABORATE HERE
 
 ### 4.4) Record the accuracy % in the SAMS
