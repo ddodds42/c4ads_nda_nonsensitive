@@ -199,7 +199,15 @@ After you open the entity card, just briefly scan the data points and compare th
 ![eyeball the match](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_2.jpg)
 
 ### 4.3) Compare datapoints between the search result and the SAMS. Count total correct vs. total datapoints.
-ELABORATE HERE
+For the entity in question, count the number of unique datapoints were reconciled under that entity in the SAMS. Count all aliases, nationhoods, addresses, passports, identifiers, statuses, etc; multiple per column if there is more than one datapoint in a column. This number counted is the total **divisor** in the ratio that will make up the search result accuracy score for that entity.
+
+Next, count the number of datapoints in the entity card for that entity. This count will be the **dividend** of the accuracy score ratio.
+
+Ocasionally a datapoint will exist in the entity card search result that was not reconciled and captured in the SAMS. If it does happen, you must return to the raw database to find the novel datapoint. If that novel datapoint from the entity card yeilds an entry (instance) of the entity that you did not previously uncover during reconciliation, or was a datapoint from a known entry, fix the error in the SAMS and take a moment to evaluate and diagnose why the mistake in the process occured on your end.
+
+However, if the novel datapoint clearly belongs to a non-identical entity, it is an error of the search results. Add 1 to the **divisor** value to quantify the inaccurate datapoint.
+
+![count datapoints](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_3.jpg)
 
 ### 4.4) Record the accuracy % in the SAMS
 ELABORATE HERE
