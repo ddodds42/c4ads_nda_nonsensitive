@@ -210,7 +210,9 @@ However, if the novel datapoint clearly belongs to a non-identical entity, it is
 ![count datapoints](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_3.jpg)
 
 ### 4.4) Record the accuracy % in the SAMS
-ELABORATE HERE
+Create a new sheet in the SAMS excel file to record the Search Accuracy readings. Record the **divisor** under a 'Number of Datapoints' column, and the **dividend** under a 'number correct' column. This will allow you to record and calculate the accuracy for the search of that entity, and it will contribute to the summation of the total subsample accuracy for all entities reconciled in the SAMS.
+
+![record the reading](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_4.jpg)
 
 ### 4.5) Repeat for all entities in the SAMS for a comprehensive Search Accuracy Measurement.
 ELABORATE HERE
