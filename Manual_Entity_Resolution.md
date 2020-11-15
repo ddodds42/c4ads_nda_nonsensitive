@@ -215,7 +215,9 @@ Create a new sheet in the SAMS excel file to record the Search Accuracy readings
 ![record the reading](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_4.jpg)
 
 ### 4.5) Repeat for all entities in the SAMS for a comprehensive Search Accuracy Measurement.
-ELABORATE HERE
+Repeat steps 4.1 - 4.4 for the rest of the thirty entities. Also enter them into the "SAMS_Reading" sheet of the SAMS excel file. Program the 'Accuracy' column such that it equals the 'number correct' divided by 'number of datapoints' columns. Program a 'Totals' row up top such that it sums the total number of data points below, the total datapoints correct below, and uses those 2 totals to calculate the accuracy for the whole SAMS Reading at that date using those 30 entities.
+
+![take reading for all entities](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_5.jpg)
 
 ### 4.6) Use Manually Reconciled SAMS to measure the accuracy of AER scripts.
 ELABORATE HERE
