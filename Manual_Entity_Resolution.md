@@ -1,5 +1,5 @@
 # Manual Entity Resolution Process  (MERP)
-## For the develoopment of a Search Accuracy "Meter-Stick" (SAMS)
+## For the develoopment of a [Search Accuracy "Meter-Stick" (SAMS)](https://github.com/ddodds42/c4ads_nda_nonsensitive/blob/main/30entities.xlsx)
 - Entities in the scraped OFAC database appear in many rows, with many different aliases and addresses, but without a standard primary key identifier.
 - Therefore, we need some way to resolve entities by primary key for accuracy checking of search results (with a pseudo-random, representative subsample of entities), the development of a SAMS
 - Eventually this entity resolution process will be deployed in the search tool itself, so that the entity card search results returns the most up-to-date information for an entity _within the current dataset_. I.e., aliases with more accurate or up-to-date information about a perp are not being missed in an entity card search result.
