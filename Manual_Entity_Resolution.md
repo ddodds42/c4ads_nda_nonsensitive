@@ -43,7 +43,7 @@ But in order for an individual, aircraft, vessel, or organization in the SAMS to
 At some point, this entity resolution (MER) must be automated.
 
 # Back to the regularly scheduled programming.
-All sql query text can be found in c4ads-sanctions-explorer-ds/Notebooks_and_Data/David_Dodds_Files/MER_SQL_query_backup.txt OR the most recent console.sql file. They are specific to the ofac data at the time of writing this, but can hopefully be morphed easily for similar queries in new OFAC data, EU, UN, and eventually POE.
+All sql query text can be found [here](https://github.com/ddodds42/c4ads_nda_nonsensitive/blob/main/Notebooks_and_Data/MER_SQL_query_backup.txt), OR the most recent console.sql file. They are specific to the ofac data at the time of writing this, but can hopefully be morphed easily for similar queries in new OFAC data, EU, UN, and eventually POE.
 
 ## Phase 1: Selecting 30+ random entities.
 Selection of a repressentative, pseudo-random subsample of (a minimum of 30) entities to perform MER on.
@@ -186,9 +186,9 @@ Some columns contain data that is congruent to data contained in similar columns
 
 ## Phase 4: Using the SAMS to gauge the accuracy of current in-app searches.
 
-Use your manually reconciled entities, which you've recorded in the SAMS excel sheet, to compare it to SanctionExplorer search results. Measure and record those results.
+Use your manually reconciled entities, which you've recorded in the SAMS excel sheet, to compare it to in-app search results. Measure and record those results.
 
-### 4.1) Search the entity in SanctionExplorer by their most commonly occurring name / alias.
+### 4.1) Search the entity in the deployed app by their most commonly occurring name / alias.
 The most common alias may not yeild a search result. It's rare, but in that case just keep hunting using other next most common aliases until a search yeilds an entity card. If the entity is not found after hunting with all aliases, then record the search accuracy for that entity as 0%. If you do find an entity card in a search result, click it to open it and evaluate.
 
 ![find in SanctionEx](/Notebooks_and_Data/David_Dodds_Files/images/SanctEx_4_1.JPG)
