@@ -1,0 +1,6 @@
+pymongo
+python-dotenv
+dnspython
+pandas
+psycopg2
+os
